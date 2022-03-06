@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: first_source 
+    description: testing_source_data
+    database: postgres
+    schema: test
+    tables:
+      - name: ttable
+
